@@ -24,6 +24,11 @@ module.exports = {
                 children: [
                     'chapter2/async'
                 ]
+            },
+            {
+                title: 'EventLoop',
+                collapsable: false,
+                children: ['chapter3/EventLoop']
             }
         ]
     }
