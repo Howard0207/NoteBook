@@ -50,3 +50,6 @@ JavaScript 的单线程和他的使用环境息息相关。作为浏览器脚本
 | process.nextTick           |   ❌    |    ✅ |
 | MutationObserver           |   ✅    |    ❌ |
 | Promise.then catch finally |   ✅    |    ✅ |
+
+
+<EventLoop></EventLoop>
