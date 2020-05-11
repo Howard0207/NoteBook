@@ -108,7 +108,7 @@ export default {
           textarea.setCaretPosition(newCaretPosition);
         }
       }
-    }
+    };
   },
   data() {
     return {
@@ -124,9 +124,9 @@ export default {
     execute() {
       this.result = [];
       try {
-        const reg = /(console.log\((.+?)\))/gi;
-        let result = this.result;
-        let newCommand = this.executeCommand.replace(reg, function(
+        var reg = /(console.log\((.+?)\))/gi;
+        var result = this.result;
+        var newCommand = this.executeCommand.replace(reg, function(
           match,
           p1,
           p2
